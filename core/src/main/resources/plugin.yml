@@ -1,0 +1,8 @@
+name: OrangeBench
+version: '${project.version}'
+main: moe.orangemc.orangebench.OrangeBenchPlugin
+api-version: 1.19
+authors: [Astro_angelfish]
+description: A simple custom item creator
+libraries:
+  - org.apache.commons:commons-lang3:3.12.0
