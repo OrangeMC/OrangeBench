@@ -6,16 +6,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import moe.orangemc.orangebench.OrangeBenchPlugin;
 import moe.orangemc.orangebench.config.resourcepack.ResourcePackConfig;
-import moe.orangemc.orangebench.config.resourcepack.ResourcePackDistributorConfig;
 import moe.orangemc.orangebench.util.SneakyExceptionThrower;
 import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.TextComponent;
 import net.kyori.adventure.text.format.NamedTextColor;
-import net.kyori.adventure.text.format.TextColor;
 import org.apache.commons.io.IOUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
-import org.eclipse.jetty.http.MimeTypes;
 import org.eclipse.jetty.server.Connector;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
@@ -24,7 +20,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.InetSocketAddress;
-import java.util.UUID;
 
 public class ResourcePackServer {
     private final Server server;

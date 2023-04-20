@@ -5,7 +5,6 @@ import moe.orangemc.orangebench.storage.Storage;
 import moe.orangemc.orangebench.storage.StorageFactory;
 import moe.orangemc.orangebench.util.IdGenerator;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.jetbrains.annotations.NotNull;
 
 public final class OrangeBenchPlugin extends JavaPlugin {
     private static OrangeBenchPlugin instance;

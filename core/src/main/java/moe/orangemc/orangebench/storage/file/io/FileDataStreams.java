@@ -3,7 +3,6 @@ package moe.orangemc.orangebench.storage.file.io;
 import moe.orangemc.orangebench.storage.file.io.impl.SilentFileDataInputStreamImpl;
 import moe.orangemc.orangebench.storage.file.io.impl.SilentFileDataOutputStreamImpl;
 import moe.orangemc.orangebench.util.SneakyExceptionThrower;
-import org.jetbrains.annotations.Contract;
 
 import java.io.File;
 import java.io.IOException;

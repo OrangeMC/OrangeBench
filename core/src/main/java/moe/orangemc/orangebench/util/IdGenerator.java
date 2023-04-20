@@ -1,6 +1,5 @@
 package moe.orangemc.orangebench.util;
 
-import moe.orangemc.orangebench.OrangeBenchPlugin;
 import net.kyori.adventure.key.Key;
 import org.apache.commons.lang3.Validate;
 

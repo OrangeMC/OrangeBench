@@ -1,7 +1,6 @@
 package moe.orangemc.orangebench.registry;
 
 import moe.orangemc.orangebench.OrangeBenchPlugin;
-import moe.orangemc.orangebench.api.block.BlockModel;
 import moe.orangemc.orangebench.api.item.ItemModel;
 import moe.orangemc.orangebench.api.registry.BuiltinRegistryKeySet;
 import moe.orangemc.orangebench.storage.Storage;
