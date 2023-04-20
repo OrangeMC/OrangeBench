@@ -5,7 +5,7 @@ import moe.orangemc.orangebench.api.registry.BuiltinRegistryKeySet;
 import net.kyori.adventure.key.Key;
 import org.jetbrains.annotations.NotNull;
 
-public class ItemRegistry extends RegistryBase<KeyedItem> {
+public final class ItemRegistry extends RegistryBase<KeyedItem> {
     @Override
     public @NotNull Key key() {
         return BuiltinRegistryKeySet.ITEM.getKey();

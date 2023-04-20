@@ -20,9 +20,7 @@ Still under early construction. Any contribution is welcomed.
         - [ ] Custom inventory UI event dispatching
 - [ ] Resource pack
     - [ ] Resource pack generation
-    - [ ] Resource pack distribution
-      - [ ] HTTP-based resource pack distribution
-      - [ ] Automated net-disk uploading
+    - [x] Resource pack distribution
 
 
 ### License
